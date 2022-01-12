@@ -1,0 +1,1191 @@
+a {
+	color: #323232;
+}
+
+a:hover {
+	color: #0A9696;
+}
+
+.spinner-border{
+	width: 10rem !important;
+    height: 10rem !important;
+	border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1em;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1em;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1em;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1em;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+/* Control modal padding */
+
+#modalbody {
+	padding: 50px;
+}
+
+@media (max-width:768px) {
+	#modalbody {
+		padding: 20px;
+	}
+}
+
+@media (max-width:480px) {
+	#modalbody {
+		padding: 10px;
+	}
+}
+
+.bglogin{
+	background-color:#646262 !important;
+	z-index: 2;
+}
+
+.lgprodid{
+    max-height: 200px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.lgprodcode{
+    max-height: 200px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.chooseTemplateUl{
+	max-height: 150px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.oldTemplateUl{
+	max-height: 150px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.runScMaster{
+	max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.runScMaster_edit{
+	max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.runScMasLi{
+	position:relative;
+}
+
+.runScMasLi_edit{
+	position:relative;
+}
+
+
+.runScMasI{
+	position:absolute;
+	right:10px;
+	top:30%;
+	font-size:30px;
+	color:#6666FF;
+}
+
+.runScMasI_edit{
+	position:absolute;
+	right:10px;
+	top:30%;
+	font-size:30px;
+	color:#6666FF;
+}
+
+
+.runScMasterTemp{
+	max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.runScMasterTemp_edit{
+	max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.itemidUl{
+	max-height: 150px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.itemidUl_edit{
+	max-height: 150px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.runScMasTempLi{
+	position:relative;
+	text-align: right;
+	padding-right: 80px;
+}
+
+.runScMasTempLi_edit{
+	position:relative;
+	text-align: right;
+	padding-right: 80px;
+}
+
+.runScMasTempLi_edit_ef{
+	background-color: aquamarine;
+}
+
+.runScMasTempI{
+	position:absolute;
+	left:5px;
+	top:30%;
+	font-size:30px;
+	color:#00c200;
+	cursor: pointer;
+}
+
+.runScMasTempI_edit{
+	position:absolute;
+	left:5px;
+	top:30%;
+	font-size:30px;
+	color:#00c200;
+	cursor: pointer;
+}
+
+.runScMasTempIedit{
+	font-size:16px;
+	color:#dd9206;
+	cursor: pointer;
+}
+
+.iEdit{
+	font-size:16px;
+	color:#dd9206;
+	cursor: pointer;
+}
+
+.runScUpI{
+	position:absolute;
+	right:35px;
+	top:30%;
+	font-size:30px;
+	color:#00CCFF;
+	cursor: pointer;
+}
+
+
+.runScUpI_edit{
+	position:absolute;
+	right:35px;
+	top:30%;
+	font-size:30px;
+	color:#00CCFF;
+	cursor: pointer;
+}
+
+.runScDownI{
+	position:absolute;
+	right:5px;
+	top:30%;
+	font-size:30px;
+	color:#00CCFF;
+	cursor: pointer;
+}
+
+
+.runScDownI_edit{
+	position:absolute;
+	right:5px;
+	top:30%;
+	font-size:30px;
+	color:#00CCFF;
+	cursor: pointer;
+}
+
+.editRSC{
+	background-color: #cecece;
+}
+
+
+.runScSelectTemplate{
+	max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+/* ############################################################# */
+/*#### Main control ใช้สำหรับ Control กับทุกๆหน้าของโปรแกรม ########*/
+/* ############################################################# */
+.inputNull{
+	border:2px solid #e20707;
+	color:#e20707 !important;
+}
+.inputNull:focus , .inputNull:active{
+	border:2px solid #e20707;
+	color:#e20707 !important;
+}
+
+.inputNull2{
+	border:2px solid #e20707;
+	color:#e20707 !important;
+}
+.inputNull2:focus , .inputNull2:active{
+	border:2px solid #e20707;
+	color:#e20707 !important;
+}
+
+.inputNullWarning{
+	border:2px solid #e28a07;
+	color:#e28a07 !important;
+}
+.inputNullWarning:focus , .inputNullWarning:active{
+	border:2px solid #e28a07;
+	color:#e28a07 !important;
+}
+
+.inputSuccess{
+	border:2px solid #00c921;
+	color:#00c921 !important;
+}
+.inputSuccess:focus , .inputSuccess:active{
+	border:2px solid #00c921;
+	color:#00c921 !important;
+}
+
+
+.textSpoint{
+	color:#e20707 !important;
+}
+.texttab{
+	text-transform: uppercase !important;
+}
+
+.inputNullNew{
+	border:2px solid #e20707;
+}
+
+.table-bordered{
+	border-color: #fff !important;
+}
+
+.textNoUpper{
+	text-transform: none !important;
+}
+
+.rd18{
+	width:18px;
+	height:18px;
+}
+
+
+
+
+/* ############################################################# */
+/*#### Main control ใช้สำหรับ Control กับทุกๆหน้าของโปรแกรม ########*/
+/* ############################################################# */
+
+
+
+
+
+
+
+
+
+/* Control modal padding */
+
+/* ############################################################# */
+/*################ Control หน้า setting.html  */
+/* ############################################################# */
+
+/* Delete filter data table */
+
+.dataTables_filter {
+	display: none!important;
+}
+
+/* Delete filter data table */
+
+/* Edit เส้นแบ่งหน้า */
+
+.divider {
+	margin: 1rem auto !important;
+}
+
+/* Edit เส้นแบ่งหน้า */
+
+/* Edit icon Modal ส่วนของการเพิ่ม Template */
+
+.iconMachineDel {
+	color: red;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: transform .2s;
+}
+
+.iconMachineDel:hover {
+	color: rgb(151, 16, 6)!important;
+	transform: scale(1.2);
+}
+
+.iconMachineEdit {
+	color: green;
+	font-size: 16px;
+	margin-left: 10px;
+	transition: transform .2s;
+}
+
+.iconMachineEdit:hover {
+	color: rgb(8, 92, 8);
+	transform: scale(1.2);
+}
+
+.iconEditMinMax{
+	color: rgb(211, 120, 15);
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+.iconEditMinMax:hover{
+	color: rgb(197, 98, 5);
+	transform: scale(1.2);
+}
+
+/* Edit icon Modal ส่วนของการเพิ่ม Template */
+
+/* Control icon Modal runscreen management */
+
+.iconRunDel {
+	color: red;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+
+.iconRunDel:hover {
+	color: rgb(151, 16, 6)!important;
+	transform: scale(1.2);
+}
+
+.iconRunEdit {
+	color: rgb(211, 120, 15);
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+
+.iconRunEdit:hover {
+	color: rgb(197, 98, 5);
+	transform: scale(1.2);
+}
+
+/* Control icon Modal runscreen management */
+
+
+
+
+/* Control template box หน้า setting.html  */
+
+.deptBox {
+	box-sizing: border-box;
+	/* height: 150px; */
+	/* position: relative; */
+	box-shadow: 2px 2px 5px #888888;
+	transition: transform .3s;
+	/* Animation */
+	/* border-radius: 15px; */
+	/* background-color: rgb(216, 215, 215) !important; */
+	border: 0px;
+	height:25vh;
+}
+
+.deptBox:hover {
+	transform: scale(1.1);
+}
+
+.deptbgimage {
+	opacity: 0.6 !important;
+	height:100%;
+	width:100%;
+}
+
+.textdept {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	padding: 10px;
+}
+
+@media (min-width:1440px){
+	.deptBox {
+		height:35vh;
+	}
+}
+@media (min-width:1200px) and (max-width:1439px) {
+	.deptBox {
+		height:30vh;
+	}
+}
+@media (min-width:992px) and (max-width:1199px){
+	.deptBox {
+		height:25vh;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.deptBox {
+		height:18vh;
+	}
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+	.deptBox {
+		height:15vh;
+	}
+}
+
+/* Control template box หน้า setting.html  */
+
+
+
+
+/* Control Run Screen management */
+
+.run_name {
+	border: 1px solid #e20707;
+	padding: 5px;
+}
+
+/* Control card */
+
+#card_work {
+	box-shadow: 5px 5px 5px #888888;
+	transition: transform .3s;
+}
+#card_work:hover{
+	transform: scale(1.02);
+}
+
+
+
+.bg_min_max_md{
+	background-color:#0f0f0fbe;
+}
+
+
+
+/* control logout section */
+.txtLogout{
+	font-size:13px !important;
+}
+.iconLogout{
+	color:#e20707;
+	font-size:14px !important;
+	font-weight: 600;
+	transform: 0.2;
+}
+.iconLogout:hover{
+	transform: scale(1.1);
+}
+/* control logout section */
+
+
+
+/* Control Min Max value */
+.nullMinMax{
+	border: 1px solid #e20707;
+	padding: 5px;
+}
+
+
+.copyIcon{
+	color:#0018f5;
+	font-size:20px;
+	transform: 0.2;
+}
+
+.copyIcon:hover{
+	color:#5162f8;
+	transform: scale(1.1);
+}
+
+.iconTemDel{
+	color: red;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+.iconTemDel:hover{
+	color: rgb(151, 16, 6)!important;
+	transform: scale(1.2);
+}
+
+
+.iconTemEdit{
+	color: #FFA500;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+.iconTemEdit:hover{
+	color:#FF8C00;
+	transform: scale(1.2);
+}
+
+
+
+
+
+/* ############################################################# */
+/*################ Control หน้า setting.html  */
+/* ############################################################# */
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################################# */
+/*################ Control หน้า viewmaindata.html  */
+/* ############################################################# */
+.sptext{
+	position:relative;
+}
+.sptext > label{
+	position:absolute;
+	right:2px;
+	top:7px;
+}
+
+.iconFeedDel {
+	color: red;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+
+.iconFeedDel:hover {
+	color: rgb(151, 16, 6)!important;
+	transform: scale(1.2);
+}
+
+.addTemType{
+	font-size:18px;
+	margin-right:10px;
+	color:#006600;
+	transition: transform .2s;
+}
+.addTemType:hover{
+	transform: scale(1.2);
+}
+
+
+.iconImageDel{
+	color: red;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+.iconImageDel:hover{
+	color: rgb(151, 16, 6)!important;
+	transform: scale(1.2);
+}
+
+.fileup{
+	color: rgb(4, 135, 211);
+	font-size: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: transform .2s;
+}
+.fileup:hover{
+	color: rgb(0, 72, 206)!important;
+	transform: scale(1.2);
+}
+
+
+
+
+
+/* table{
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-wrap:break-word;
+  } */
+  .checkbox-style{
+	  width:18px !important;
+	  height:18px !important;
+  }
+  #checkBoxDiv{
+	  position: relative;
+  }
+  #checkBoxDiv > label{
+	  position:absolute;
+	  top:-1px;
+	  margin-left:5px;
+  }
+
+
+@media (max-width:768px) {
+	.feedername_td{
+		width:150px !important;
+	}
+	
+}
+
+@media (max-width:480px) {
+	.feedername_td{
+		width:120px;
+	}
+}
+
+
+.startBtn{
+	font-size:30px;
+	width:160px;
+	height:80px;
+}
+.addoutPuts{
+	font-size:30px;
+	height:80px;
+}
+
+.faMemo{
+	color:#FF9900;
+	font-size:18px;
+	transition: transform .2s;
+}
+.faMemo:hover{
+	transform: scale(1.2);
+}
+
+
+.faImage , .faImage2 , .faImage3 , .faImage4{
+	color:#6666FF;
+	font-size:18px;
+	transition: transform .2s;
+}
+.faImage:hover , .faImage2:hover , .faImage3:hover , .faImage4:hover{
+	transform: scale(1.2);
+}
+
+.runImageView{
+	height:80% !important;
+	width:100% !important;
+}
+@media (max-width:768px) {
+	.runImageView{
+		height:120px !important;
+		width:100% !important;
+	}
+}
+
+
+
+
+/* Control new Design */
+
+@media (max-width:768px) {
+	
+}
+
+
+@media (max-width:480px) {
+	
+}
+
+
+@media (max-width:375px) {
+	.h1vtitle{
+		font-size:18px;
+	}
+	.addoutPuts{
+		font-size:18px;
+	}
+
+	.gft1{
+		width:80px;
+	}
+	.gft2{
+		width:200px;
+	}
+	.gft3{
+		width:80px;
+	}
+	.gft4{
+		width:80px;
+	}
+}
+
+
+
+
+
+
+
+/* ############################################################# */
+/*################ Control หน้า home  */
+/* ############################################################# */
+.null_fam_dataareaid{
+	border: 1px solid #e20707;
+	padding: 5px;
+}
+
+
+
+
+/* Control ปุ่ม Godown Modal */
+.mainButton{
+	position:relative;
+}
+.btnDown{
+	position:fixed;
+	top:10;
+	right:20px;
+	z-index: 999;
+}
+
+/* .mainButton2{
+	position:relative;
+} */
+.btnDown2{
+	position:fixed;
+	top:0;
+	right:50px;
+	z-index: 999;
+}
+
+.btnDown3{
+	position:fixed;
+	top:0;
+	right:50px;
+	z-index: 999;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.btnDown2{
+		position:fixed;
+		top:0;
+		right:10px;
+		z-index: 999;
+	}
+
+	.btnDown{
+		position:fixed;
+		top:10;
+		right:10px;
+		z-index: 999;
+	}
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	.btnDown2{
+		position:fixed;
+		top:0;
+		right:150px;
+		z-index: 999;
+	}
+
+	.btnDown{
+		position:fixed;
+		top:10;
+		right:150px;
+		z-index: 999;
+	}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.btnDown2{
+		position:fixed;
+		top:0;
+		right:350px;
+		z-index: 999;
+	}
+
+	.btnDown{
+		position:fixed;
+		top:10;
+		right:350px;
+		z-index: 999;
+	}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+	
+}
+
+
+/* Control table */
+table>#runscreenManage, td, th {  
+	border: 1px solid #ddd;
+	text-align: left;
+  }
+  
+  #runscreenManage{
+	border-collapse: collapse;
+	width:100%;
+  }
+  
+  th, td {
+	padding: 15px;
+  }
+  
+  .cRunscreen{
+	width:auto;
+	min-width: 200px !important;
+	max-width: 300px;
+	font-size: 15px;
+	font-weight: 600;
+  }
+
+  .cSpoint{
+	font-size:15px;
+  }
+
+  .cWorktime{
+	width:auto;
+	min-width: 100px !important;
+	max-width: 300px;
+	text-transform: uppercase;
+	font-size:15px;
+  }
+
+  .cWorktimeH{
+	width:auto;
+	min-width: 100px !important;
+	max-width: 200px;
+	text-transform: uppercase;
+	font-size:12px;
+	position:relative;
+  }
+
+  .groupLinenum{
+	  position:absolute;
+	  top:3px;
+	  right:3px;
+  }
+
+
+  /* For RunScreen Modal */
+  .runManageBtn{
+	width:auto;
+	min-width: 40px !important;
+	max-width: 150px;
+  }
+
+
+
+  /* New Module Code แก้ไขโปรแกรม */
+  .newTempIcon{
+	margin-right:5px;
+	font-size:18px;
+  }
+  .copyTempIcon{
+	margin-right:5px;
+	font-size:18px;
+  }
+
+
+#addRunscreen{
+	background-color: #f0f0f0;
+	padding:30px;
+}
+
+.rowQcline{
+	min-width:fit-content;
+}
+
+
+/* Control modal */
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	.modal-xl{
+		max-width: 90%;
+	}
+	.rowQcline{
+		min-width:850px;
+	}
+
+	.modal-lg.qcsampling_md{
+		max-width: 90%;
+	}
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.rowQcline{
+		min-width:850px;
+	}
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	.modal-xl{
+		max-width: 50%;
+	}
+	
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.modal-lg.qcsampling_md{
+		max-width:50%;
+	}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+	
+}
+/* Control modal */
+
+#frm_savenew_template{
+	min-width: 100%;
+}
+#frm_saveEditTemplate{
+	min-width:100%;
+}
+
+
+/* Edit runscreen modal */
+.edit_runscreen_md_head{
+	background-color:#cecece;
+}
+
+.subhead{
+	justify-content:left !important;
+}
+
+.qclink{
+	color:rgb(5, 113, 202);
+	cursor: pointer;
+	font-weight: 600;
+}
+.qclink:hover{
+	color:#07aed8;
+}
+.iconTestPass{
+	color:#28a745;
+	font-size:18px;
+	font-weight: 600;
+}
+.iconTestFail{
+	color:#dc3545;
+	font-size:18px;
+	font-weight: 600;
+}
+/* #showQcSampling{
+	max-height: 200px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+} */
+
+
+
+.searchItemid_ul{
+	max-height: 200px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.clearDiv{
+	position: relative;
+}
+.clearDivIcon{
+	position:absolute;
+	top:5px;
+	right:20px;
+	font-size:18px;
+	font-weight: 600;
+	color:#fdb71f;
+	transition: transform .2s;
+	
+}
+.clearDivIcon:hover{
+	cursor:pointer;
+	color:#d89400;
+	transform:scale(1.1);
+}
+
+.showLotNumber_li{
+	position:relative;
+}
+.showLotNumber_li>span{
+	padding-left:30px;
+}
+.showLotNumber_checkbox{
+	position:absolute;
+	left:15px;
+	top:14px;
+	z-index: 9;
+	width:18px;
+	height:18px;
+}
+
+.requestText{
+	color:red;
+}
+
+
+.loader{
+	position: fixed;
+    top: 0;
+    left: 0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:rgba(0, 0, 0, 0.767);
+	z-index: 999;
+}
+.loader>div{
+	height:100px;
+	width:100px;
+	border:15px solid #45474b;
+	border-top-color:#2a88e6;
+	position:absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border-radius:50%;
+	animation:spin 1.5s infinite linear;
+}
+@keyframes spin{
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+.sysdt{
+	font-size:18px;
+	color:rgb(0, 200, 207);
+	transition: transform .2s;
+}
+.sysdt:hover{
+	cursor:pointer;
+	transform:scale(1.1);
+}
+
+#sysTextShow{
+	font-size:18px;
+	font-weight:600;
+}
+
+.iconArrowLeft{
+	font-size:40px;
+	font-weight: 600;
+	color:#5162f8;
+	cursor:pointer;
+}
+
+.iconArrowRight{
+	font-size:40px;
+	font-weight: 600;
+	color:#5162f8;cursor:pointer;
+}
+
+.groupLinenum{
+	width:20px;
+	height:20px;
+}
+
+
+
+/* Head on view page */
+.headzone{
+	border:1px solid #ccc;
+	padding:20px;
+	position:relative;
+}
+
+.editHead{
+	font-size:24px;
+	position:absolute;
+	top:3px;
+	right:3px;
+	color:#e7a109;
+	transition:transform .2s;
+}
+
+.editHead:hover{
+	transform:scale(1.1);
+	cursor: pointer;
+}
+
+
+.stopMemoView:hover{
+	cursor:pointer;
+}
+
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:480px) {
+	#btn_mainPage{
+		width:100% !important;
+	}
+
+	#btn_graphpage{
+		width:100% !important;
+	}
+}
+
+

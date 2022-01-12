@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+RewriteCond %{SERVER_PORT} 80  
+RewriteRule ^(.*)$ https://intranet.saleecolour.com/intsys/msd/$1 [R,L]
